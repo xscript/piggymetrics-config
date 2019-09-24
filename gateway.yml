@@ -41,3 +41,9 @@ zuul:
         serviceId: notification-service
         stripPrefix: false
         sensitiveHeaders:
+
+    dotnet:
+        path: /dotnet/**
+        serviceId: dotnet-service
+        stripPrefix: false
+        sensitiveHeaders:
