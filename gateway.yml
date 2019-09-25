@@ -48,15 +48,4 @@ zuul:
         stripPrefix: true
         sensitiveHeaders:
 
-    product-service:
-        path: /api/products/**
-        serviceId: dotnet-service
-        stripPrefix: false
-        sensitiveHeaders:
-
-    image-service:
-        path: /images/**
-        serviceId: image-service
-        stripPrefix: true
-        sensitiveHeaders:
 
